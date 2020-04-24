@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Text Editor</title>
+    </head>
+    <body>
+        <div id = "canvas">
+            <div id = "icons">
+                <ul>
+                    <li><figure id = "0" onclick = "changeStyle('0')">
+                        <img src = "icons/title.png">
+                    </li></figure>
+                    <li><figure id = "1" onclick = "changeStyle('1')">
+                        <img src = "icons/bold.png">
+                    </li></figure>
+                    <li><figure id = "2" onclick = "changeStyle('2')">
+                        <img src = "icons/italic.png">
+                    </li></figure>
+                    <li><figure id = "3" onclick = "changeStyle('3')">
+                        <img src = "icons/code.png">
+                    </li></figure>
+                    <li><figure id = "4" onclick = "changeStyle('4')">
+                        <img src = "icons/list_bulleted.png">
+                    </li></figure>
+                    <li><figure id = "5" onclick = "changeStyle('5')">
+                        <img src = "icons/underlined.png">
+                    </li></figure>
+                    <li><figure id = "6" onclick = "changeStyle('6')">
+                        <img src = "icons/quote.png">
+                    </li></figure>
+                    <li><figure id = "7" onclick = "changeStyle('7')">
+                        <img src = "icons/link.png">
+                    </li></figure>
+                </ul>
+            </div>
+            <div id = "textarea">
+                <div contenteditable = "true" id = "text"></div>
+            </div>
+        </div>
+        <script src = "main.js"></script>             
+    </body>
+</html>

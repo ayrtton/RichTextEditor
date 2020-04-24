@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(22, 0, 100);
+}
+
+#canvas {
+    background-color: white;
+    width: 700px;
+    height: 350px;
+    margin: 125px auto auto auto;
+    box-shadow: 1px 1px 20px rgba(135, 133, 255, 0.5);
+}
+
+#icons {
+    padding-top: 8px;
+    margin-left: -12px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#textarea {
+    border-top: 1px solid rgb(0, 0, 0);
+    width: 645px;
+    height: 270px;
+    margin-left: 25px;
+}
+
+#text {
+    width: 648px;
+    height: 268px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+figure {
+    margin: auto auto auto auto;
+    width: 17px;
+    height: 17px;
+    padding: 3px;
+}
+
+figure:hover {
+    cursor: pointer;
+}

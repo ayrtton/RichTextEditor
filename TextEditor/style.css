@@ -21,6 +21,10 @@ li {
     padding-right: 10px;
 }
 
+li :hover {
+    cursor: pointer;
+}
+
 #textarea {
     border-top: 1px solid rgb(0, 0, 0);
     width: 645px;
@@ -34,15 +38,4 @@ li {
     border: none;
     outline: none;
     resize: none;
-}
-
-figure {
-    margin: auto auto auto auto;
-    width: 17px;
-    height: 17px;
-    padding: 3px;
-}
-
-figure:hover {
-    cursor: pointer;
 }

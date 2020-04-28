@@ -1,7 +1,7 @@
 function changeStyle(id) {
     var sel = window.getSelection(); 
 
-    if (sel.rangeCount) {
+    if (sel.rangeCount > 0 && sel.toString() != "") {
         var e = document.createElement('span');
         
         switch(id) {
@@ -67,7 +67,7 @@ function changeStyle(id) {
         var range = sel.getRangeAt(0);
         range.deleteContents(); 
         range.insertNode(e); 
-    }
+    } 
 }
 
 document.addEventListener('keydown', (event) => {

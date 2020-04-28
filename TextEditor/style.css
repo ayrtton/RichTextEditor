@@ -13,6 +13,7 @@ body {
 #icons {
     padding-top: 8px;
     margin-left: -12px;
+    -webkit-user-select: none;
 }
 
 li {

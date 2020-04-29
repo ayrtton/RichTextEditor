@@ -83,5 +83,7 @@ document.addEventListener('keydown', (event) => {
 }, false);
 
 document.addEventListener('click', (event) => {
-    changeStyle(window.event.target.getAttribute('id'));
+    if(event.target.tagName == 'IMG') {
+        changeStyle(window.event.target.getAttribute('id'));
+    }
 }, false);

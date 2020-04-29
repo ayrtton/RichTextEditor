@@ -36,7 +36,6 @@ li :hover {
 #text {
     width: 648px;
     height: 268px;
-    border: none;
     outline: none;
-    resize: none;
+    overflow: auto;
 }
